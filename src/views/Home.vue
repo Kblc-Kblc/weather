@@ -15,14 +15,12 @@
         </div>
       </div>
       <div class="card-wrapper">
-        <base-weather-card />
+        <base-card />
       </div>
 
       <div class="card-wrapper">
-        <base-list-country />
+        <base-country />
       </div>
-
-      <!--      <router-link to="/details"> <el-link>Go to history page</el-link></router-link>-->
     </div>
   </common-layout>
 </template>
@@ -30,8 +28,8 @@
 <script setup>
 import CommonLayout from '@/layouts/CommonLayout.vue'
 import BaseHeader from '@/components/BaseHeader.vue'
-import BaseWeatherCard from '@/components/BaseWeatherCard.vue'
-import BaseListCountry from '@/components/BaseListCountry.vue'
+import BaseCard from '@/components/BaseCard.vue'
+import BaseCountry from '@/components/BaseList.vue'
 import BaseSearch from '@/components/BaseSearch.vue'
 import { ref, watch } from 'vue'
 import { useWeatherStore } from '../stores/weather.js'

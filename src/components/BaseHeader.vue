@@ -5,12 +5,12 @@
         <logo />
       </router-link>
     </div>
-    <base-theme-switch />
+    <base-switch />
   </div>
 </template>
 
 <script setup>
-import BaseThemeSwitch from './BaseThemeSwitch.vue'
+import BaseSwitch from './BaseSwitch.vue'
 import Logo from './icons/Logo.vue'
 </script>
 
