@@ -9,9 +9,9 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/weather_test/',
+  base: '/weather/',
   build: {
-    outDir: '../public',
+    outDir: 'dist',
   },
   plugins: [
     vue(),

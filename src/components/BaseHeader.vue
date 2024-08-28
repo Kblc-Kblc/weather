@@ -24,6 +24,12 @@ import Logo from './icons/Logo.vue'
   padding: 0 45px;
 }
 
+@media (max-width: 767px) {
+  .header {
+    padding: 0 25px;
+  }
+}
+
 .header-tools {
   display: flex;
   align-items: center;
