@@ -37,6 +37,12 @@ const loading = computed(() => weatherStore.loading)
   margin: 0;
 }
 
+.description {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
 .temperature {
   font-size: 72px;
   font-weight: 200;
@@ -48,12 +54,6 @@ const loading = computed(() => weatherStore.loading)
   .temperature {
     font-size: 48px;
   }
-}
-
-.description {
-  text-align: center;
-  font-size: 20px;
-  margin: 0;
 }
 
 .default {
